@@ -48,11 +48,6 @@ class SudokuBoard:
                     possibleset = list(possibleset)
                     possibleSolutions.append(
                         ElementSolution(i, j, possibleset))
-                    # self.field[i, j] = possibleset[0]
-                    # solutionsInSquares[self.indexOfCorrespondingBlock(i,j)].remove(possibleset[0])
-                    # solutionsInLines[i].remove(possibleset[0])
-                    # solutionsInColumns[i].remove(possibleset[0])
-                    # self.print()
                     print()
         possibleSolutions.sort()
         n = 1
@@ -62,12 +57,14 @@ class SudokuBoard:
                 solutionToUpdate = possibleSolutions[index]
                 isSameLine = solutionToUpdate.line == solution.line
                 isSameColumn = solutionToUpdate.column == solution.column
-                isSameSquare = self.indexOfCorrespondingBlock(solutionToUpdate.line, solutionToUpdate.column) == self.indexOfCorrespondingBlock(solution.line,solution.column)
+                isSameSquare = self.indexOfCorrespondingBlock(
+                    solutionToUpdate.line, solutionToUpdate.column) == self.indexOfCorrespondingBlock(solution.line, solution.column)
                 if (isSameLine or isSameColumn or isSameSquare):
-                    if(solution.solutions[0] in solutionToUpdate.solutions):
-                        solutionToUpdate.solutions.remove(solution.solutions[0])
+                    if (solution.solutions[0] in solutionToUpdate.solutions):
+                        solutionToUpdate.solutions.remove(
+                            solution.solutions[0])
             solution.solutions.remove(solution.solutions[0])
-            n+=1
+            n += 1
 
     def getPossibleSolutionsInLines(self):
         possibleSolutionsInLines = [list(range(1, 10))
