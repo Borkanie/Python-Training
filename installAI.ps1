@@ -11,6 +11,13 @@ pip install einops
 pip install torch-optimizer
 pip install easydict
 pip install braceexpand
+pip install torch
+pip install torchvision
+pip install torch_optimizer
+pip install perlin_numpy
+pip install kornia
+pip install imageio
+pip install moviepy
 pip install git+https://github.com/pvigier/perlin-numpy
 
   # ClipDraw deps
