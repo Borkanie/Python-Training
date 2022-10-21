@@ -8,3 +8,12 @@ https://realpython.com/python-practice-problems/
 so go on have a look aswell.
 
 Have a good day and enjoy :)
+
+This repository uses a virtual environment.
+In order to start it open a console in the main folder and start the activation script using
+
+```
+
+\env\Scripts\activate.bat
+
+```

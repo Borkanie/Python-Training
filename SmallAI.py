@@ -20,4 +20,4 @@ clipit.add_settings(prompts=prompts, quality=quality, aspect=aspect)
 # Apply these settings and run
 settings = clipit.apply_settings()
 clipit.do_init(settings)
-cliptit.do_run(settings)
+clipit.do_run(settings)
