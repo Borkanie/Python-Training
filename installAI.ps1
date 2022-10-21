@@ -18,6 +18,10 @@ pip install perlin_numpy
 pip install kornia
 pip install imageio
 pip install moviepy
+pip install ftfy
+pip install pytorch_lightning
+pip install regex
+pip install einops
 pip install git+https://github.com/pvigier/perlin-numpy
 
   # ClipDraw deps
