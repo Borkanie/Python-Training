@@ -30,3 +30,24 @@ type installAI.ps1|cmd
 ```
 
 The code of the generator can be found in SmallAI.py
+
+## Sudoku solver
+
+A small python script designed to solve a sudoku game using a recursive algorithm.
+File:
+> SudokuSolver.py
+
+## Sudoku Learner
+
+Machine Leanring sudoku solver.
+>SudokuLearning.py
+
+## Sum of integers up to N
+
+A small programs that finds all the subarrays of an array who's sum is smaller than N.
+>SumOfIntegersUpToN
+
+## System Simulation
+
+Small differential system visualizer.
+>SystemSimulation.py
