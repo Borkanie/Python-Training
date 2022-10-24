@@ -1,9 +1,9 @@
 
-#git clone https://github.com/openai/CLIP
+git clone https://github.com/openai/CLIP
   # pip install taming-transformers
-#git clone https://github.com/CompVis/taming-transformers.git
+git clone https://github.com/CompVis/taming-transformers.git
 #rm -Rf clipit
-#git clone https://github.com/mfrashad/clipit.git
+git clone https://github.com/mfrashad/clipit.git
 pip install ftfy regex tqdm omegaconf pytorch-lightning
 pip install kornia
 pip install imageio-ffmpeg   
@@ -34,7 +34,7 @@ pip install visdom
 
 pip install gradio
 
-#git clone https://github.com/BachiLi/diffvg
+git clone https://github.com/BachiLi/diffvg
 #%cd diffvg
 # !ls
 git submodule update --init --recursive

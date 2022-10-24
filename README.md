@@ -1,5 +1,4 @@
-Python-Training
-===============
+# Python-Training
 This entire repository will be used for small-scale python exercises to keep us sharp. 
 All resources shall be available in the repository.
 I do not own nor did i design the problems.
@@ -8,7 +7,7 @@ https://realpython.com/python-practice-problems/
 so go on have a look aswell.
 
 Have a good day and enjoy :)
-
+## Virtual Environment
 This repository uses a virtual environment.
 In order to start it open a console in the main folder and start the activation script using
 
@@ -17,3 +16,17 @@ In order to start it open a console in the main folder and start the activation 
 \env\Scripts\activate.bat
 
 ```
+
+## Text 2 art python AI image generator
+
+A small python program using CLIP and VQGEN to create Art from text using AI models.
+
+Credits to Rashadfrom:
+> https://medium.com/towards-data-science/how-i-built-an-ai-text-to-art-generator-a0c0f6d6f59f
+
+Command to run install AI from cmd.
+```
+type installAI.ps1|cmd 
+```
+
+The code of the generator can be found in SmallAI.py
