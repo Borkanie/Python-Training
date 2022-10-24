@@ -22,6 +22,7 @@ pip install ftfy
 pip install pytorch_lightning
 pip install regex
 pip install einops
+pip install omegaconf
 pip install git+https://github.com/pvigier/perlin-numpy
 
   # ClipDraw deps
