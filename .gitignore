@@ -2,5 +2,13 @@ CLIP/
 clipit/
 diffvg/
 taming-transformers/
+<<<<<<< Updated upstream
 env/
 vscode/
+=======
+venv/
+vscode/
+models/
+starting_image.png
+taming/
+>>>>>>> Stashed changes
